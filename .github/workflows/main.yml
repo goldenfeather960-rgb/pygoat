@@ -1,8 +1,8 @@
 name :ci
 
-on : [push]
+on:[push]
 
-jobs :
+jobs:
   sast_scan:
     name: Run scan
     runs-on : ubuntu-latest
